@@ -11,6 +11,7 @@ import { paymentMethods } from './paymentMethods';
 import { updates } from './updates'
 import { responseHeaders } from './responseHeaders'
 import { errors } from './errors'
+import { identity } from './identity';
 
 export default combineReducers({
   authentication,
@@ -24,5 +25,6 @@ export default combineReducers({
   paymentMethods,
   updates,
   errors,
-  responseHeaders
+  responseHeaders,
+  identity,
 });
