@@ -8,10 +8,10 @@ import { headers } from './cache/headers';
 import { customCoins } from './customCoins';
 import { buySellCrypto } from './buySellCrypto';
 import { paymentMethods } from './paymentMethods';
-import { updates } from './updates'
-import { responseHeaders } from './responseHeaders'
-import { errors } from './errors'
-import { identity } from './identity';
+import { updates } from './updates';
+import { responseHeaders } from './responseHeaders';
+import { errors } from './errors';
+import identity from './identity';
 
 export default combineReducers({
   authentication,
