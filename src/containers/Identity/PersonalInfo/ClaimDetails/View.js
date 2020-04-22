@@ -37,10 +37,10 @@ const ClaimDetails = (props) => {
     }
   };
 
-  const goToAttestationDetails = (activeAttestationId) => {
+  const goToAttestationDetails = (activeAttestationId, attestationName) => {
     setActiveAttestationId(activeAttestationId);
     navigation.navigate('AttestationDetails', {
-      id: activeAttestationId,
+      id: attestationName,
 
     });
   };
@@ -70,8 +70,8 @@ const ClaimDetails = (props) => {
           {attestations.keySeq().map((attestation) => (
             <ListItem
               key={attestations.getIn([attestation, 'id'], '')}
-              title={attestations.getIn([attestation, 'id'], '')}
-              onPress={() => goToAttestationDetails(attestations.getIn([attestation, 'id'], ''))}
+              title={attestations.getIn([attestation, 'identity_attested'], '')}
+              onPress={() => goToAttestationDetails(attestations.getIn([attestation, 'id'], ''), attestations.getIn([attestation, 'claimName'], ''))}
               bottomDivider
               chevron
             />
