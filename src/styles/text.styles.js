@@ -4,36 +4,36 @@ export default text = {
   centralHeader: {
     fontSize: 24,
     color: Colors.quaternaryColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium",
-    fontSize: 16
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
+    fontSize: 16,
   },
   centralSuccessHeader: {
     fontSize: 24,
     color: Colors.successButtonColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium"
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
   },
   largeCentralPaddedHeader: {
     fontSize: 32,
     color: Colors.quaternaryColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium",
-    paddingVertical: 16
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
+    paddingVertical: 16,
   },
   mediumCentralPaddedHeader: {
     fontSize: 24,
     color: Colors.quaternaryColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium",
-    paddingVertical: 16
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
+    paddingVertical: 16,
   },
   greyStripeHeader: {
-    width: "100%",
+    width: '100%',
     backgroundColor: Colors.tertiaryColor,
     paddingVertical: 16,
     fontSize: 24,
-    textAlign: "center",
+    textAlign: 'center',
     color: Colors.quinaryColor,
     fontFamily: 'Avenir-Black',
   },
@@ -49,116 +49,116 @@ export default text = {
   seedWord: {
     fontSize: 32,
     color: Colors.primaryColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium"
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
   },
   defaultDescriptiveText: {
-    textAlign: "center",
+    textAlign: 'center',
     fontSize: 18,
-    fontFamily: "Avenir-Book",
+    fontFamily: 'Avenir-Book',
   },
   smallerDescriptiveText: {
-    textAlign: "center",
+    textAlign: 'center',
     fontSize: 14,
-    fontFamily: "Avenir-Book",
+    fontFamily: 'Avenir-Book',
   },
   seedText: {
     color: Colors.primaryColor,
-    textAlign: "center",
-    fontFamily: "Avenir-Medium"
+    textAlign: 'center',
+    fontFamily: 'Avenir-Medium',
   },
   infoText: {
-    fontFamily: "Avenir-Black",
-    color: Colors.quaternaryColor
+    fontFamily: 'Avenir-Black',
+    color: Colors.quaternaryColor,
   },
   centralLightTextPadded: {
-    fontFamily: "Avenir-Book",
+    fontFamily: 'Avenir-Book',
     color: Colors.quaternaryColor,
-    textAlign: "center",
+    textAlign: 'center',
     paddingVertical: 6,
   },
   centralInfoTextPadded: {
-    fontFamily: "Avenir-Black",
+    fontFamily: 'Avenir-Black',
     color: Colors.quaternaryColor,
-    textAlign: "center",
-    paddingVertical: 6
+    textAlign: 'center',
+    paddingVertical: 6,
   },
   whiteText: {
-    fontFamily: "Avenir-Book",
+    fontFamily: 'Avenir-Book',
     color: Colors.secondaryColor,
   },
   linkText: {
     color: Colors.linkButtonColor,
-    fontFamily: "Avenir-Black"
+    fontFamily: 'Avenir-Black',
   },
   defaultText: {
-    fontFamily: "Avenir-Book",
-    color: Colors.quaternaryColor
+    fontFamily: 'Avenir-Book',
+    color: Colors.quaternaryColor,
   },
   formInputLabel: {
-    textAlign:"left",
-    color: Colors.quinaryColor,
-    fontFamily: 'Avenir-Book',
-    fontWeight: 'normal'
-  },
-  mediumFormInputLabel: {
-    textAlign:"left",
+    textAlign:'left',
     color: Colors.quinaryColor,
     fontFamily: 'Avenir-Book',
     fontWeight: 'normal',
-    fontSize: 16
   },
-  mediumFormInputLabelLeftPadded: {
-    textAlign:"left",
+  mediumFormInputLabel: {
+    textAlign:'left',
     color: Colors.quinaryColor,
     fontFamily: 'Avenir-Book',
     fontWeight: 'normal',
     fontSize: 16,
-    paddingLeft: 9
+  },
+  mediumFormInputLabelLeftPadded: {
+    textAlign:'left',
+    color: Colors.quinaryColor,
+    fontFamily: 'Avenir-Book',
+    fontWeight: 'normal',
+    fontSize: 16,
+    paddingLeft: 9,
   },
   mediumInlineLink: {
     color: Colors.linkButtonColor,
-    fontFamily: "Avenir-Black",
-    fontSize: 16
+    fontFamily: 'Avenir-Black',
+    fontSize: 16,
   },
   ghostText: {
     color: Colors.primaryColor,
-    fontFamily: "Avenir-Black",
-    fontSize: 16
+    fontFamily: 'Avenir-Black',
+    fontSize: 16,
   },
   inputTextDefaultStyle: {
     color: Colors.quinaryColor,
     fontFamily: 'Avenir-Book',
-    fontWeight: 'normal'
+    fontWeight: 'normal',
   },
   formCenterLabel: {
-    textAlign: "center",
+    textAlign: 'center',
     color: Colors.quinaryColor,
     fontFamily: 'Avenir-Book',
-    fontWeight: 'normal'
+    fontWeight: 'normal',
   },
   formCenterError: {
-    textAlign: "center",
+    textAlign: 'center',
     color: Colors.warningButtonColor,
     fontFamily: 'Avenir-Book',
-    fontWeight: 'normal'
+    fontWeight: 'normal',
   },
   formCenterBlueInput: {
-    textAlign: "center",
+    textAlign: 'center',
     color: Colors.primaryColor,
     fontFamily: 'Avenir-Book',
-    fontWeight: 'normal'
+    fontWeight: 'normal',
   },
   listItemLeftTitleDefault: {
     color: Colors.quinaryColor,
     fontFamily:'Avenir-Black',
-    fontSize: 16
+    fontSize: 16,
   },
   listItemLeftTitleUppercase: {
     color: Colors.quinaryColor,
     fontFamily:'Avenir-Black',
     fontSize: 16,
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
   },
   listItemLeftTitlePadded: {
     color: Colors.quinaryColor,
@@ -171,31 +171,31 @@ export default text = {
     fontFamily:'Avenir-Black',
     fontSize: 16,
     paddingHorizontal: 6, // To match sidemenu avatars
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
   },
   listItemRightTitleDefault: {
     color: Colors.quinaryColor,
   },
   listItemSubtitleDefault: {
-    color: "rgba(206,68,70,1)" 
+    color: 'rgba(206,68,70,1)',
   },
   fiatLabel: {
     backgroundColor: Colors.tertiaryColor,
     paddingTop: 40,
     fontSize: 56,
-    textAlign: "center",
+    textAlign: 'center',
     color: Colors.quaternaryColor,
     width: '100%',
     fontFamily:'Avenir-Book',
     height: '25%',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   boldListHeader: {
-    width: "100%",
+    width: '100%',
     backgroundColor: Colors.secondaryColor,
     paddingVertical: 16,
     fontSize: 24,
-    textAlign: "left",
+    textAlign: 'left',
     color: Colors.quinaryColor,
     paddingLeft: 32,
     fontFamily:'Avenir-Black',
@@ -203,8 +203,8 @@ export default text = {
   blockTextAlignRight: {
     fontSize: 16,
     color: Colors.quaternaryColor,
-    width: "65%",
-    textAlign: "right"
+    width: '65%',
+    textAlign: 'right',
   },
 
   labelBold:{
@@ -213,5 +213,10 @@ export default text = {
     color: Colors.secondaryColor,
     fontWeight: 'bold',
     padding: 8,
+  },
+
+  whiteTextWithCustomFontSize:{
+    color: Colors.secondaryColor,
+    fontSize: 16,
   },
 };

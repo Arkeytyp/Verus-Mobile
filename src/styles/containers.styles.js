@@ -196,4 +196,8 @@ export default containers = {
     backgroundColor: Colors.tertiaryColor,
     borderBottomWidth: 0
   },
+  flexColumn:{
+    flexDirection:'column',
+  }
+
 }
