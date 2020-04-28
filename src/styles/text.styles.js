@@ -245,4 +245,7 @@ export default text = {
     color: Colors.quaternaryColor,
     paddingTop: 3,
   },
+  textWithHorizontalPadding:{
+    paddingHorizontal: 10,
+  },
 };
