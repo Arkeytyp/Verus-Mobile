@@ -331,6 +331,7 @@ class SignUp extends Component {
                   onChangeText={text => this.setState({ userName: text })}
                   autoCapitalize={"none"}
                   autoCorrect={false}
+                  blurOnSubmit={false}
                   errorMessage={
                     this.state.errors.userName ? this.state.errors.userName : null
                   }
@@ -360,6 +361,7 @@ class SignUp extends Component {
                     autoCapitalize={"none"}
                     autoCorrect={false}
                     secureTextEntry={true}
+                    blurOnSubmit={false}
                     errorMessage={
                       this.state.errors.pin ? this.state.errors.pin : null
                     }
@@ -373,6 +375,7 @@ class SignUp extends Component {
                     onChangeText={text => this.setState({ confirmPin: text })}
                     autoCapitalize={"none"}
                     autoCorrect={false}
+                    blurOnSubmit={false}
                     secureTextEntry={true}
                     errorMessage={
                       this.state.errors.confirmPin
