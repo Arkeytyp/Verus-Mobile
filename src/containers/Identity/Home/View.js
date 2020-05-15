@@ -25,9 +25,10 @@ const Home = (props) => {
   };
 
   const [identityAttested, setIdentityAttested] = useState('');
-  const goToAttestationDetails = (activeAttestationId, identityAttested) => {
+  const goToAttestationDetails = (activeAttestationId, _identityAttested) => {
     setActiveAttestationId(activeAttestationId);
-    setIdentityAttested(identityAttested);
+    setIdentityAttested(_identityAttested);
+    console.log(_identityAttested)
     setAttestationModalVisibility(true);
   };
 
@@ -52,11 +53,10 @@ const Home = (props) => {
       <Text style={Styles.boldText}>Pinned attestations</Text>
       <ScrollView>
         <View>
-          {/* {pinnedAttestations?.keySeq().map((attestationKey) => (
+          {pinnedAttestations?.keySeq().map((attestationKey) => (
             <TouchableOpacity
-              key={pinnedAttestations.getIn([attestationKey, 'id'], '')}
-              onPress={() => goToAttestationDetails(pinnedAttestations.getIn([attestationKey, 'id'], ''),
-                pinnedAttestations.getIn([attestationKey, 'claimName'], ''),
+              key={pinnedAttestations.getIn([attestationKey, 'uid'], '')}
+              onPress={() => goToAttestationDetails(pinnedAttestations.getIn([attestationKey, 'uid'], ''),
                 pinnedAttestations.getIn([attestationKey, 'identityAttested'], ''))}
               style={Styles.greyButtonWithShadow}
             >
@@ -64,21 +64,21 @@ const Home = (props) => {
                 <Text style={Styles.textWithLeftPadding}>{pinnedAttestations.getIn([attestationKey, 'identityAttested'], '')}</Text>
               </View>
             </TouchableOpacity>
-          ))} */}
+          ))}
         </View>
       </ScrollView>
-      {/* <AttestationDetails
+      <AttestationDetails
         visible={attestationModalVisibility}
         identityAttested={identityAttested}
-      /> */}
+      />
     </View>
   );
 };
 
 const mapStateToProps = (state) => ({
   activeIdentity: selectActiveIdentity(state),
-  // pinnedAttestations: selectPinnedAttestations(state),
-  // attestationModalVisibility: selectAttestationModalVisibility(state),
+  pinnedAttestations: selectPinnedAttestations(state),
+  attestationModalVisibility: selectAttestationModalVisibility(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({

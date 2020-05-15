@@ -23,6 +23,8 @@ const AttestationDetails = (props) => {
     actions: { toggleAttestationPin, setAttestationModalVisibility },
   } = props;
 
+  console.log(identityAttested)
+
   const cancelHandler = () => {
     setAttestationModalVisibility(false);
   };
@@ -30,10 +32,8 @@ const AttestationDetails = (props) => {
     toggleAttestationPin();
   };
 
-
-  const getChildClaimData = () => (childClaimData ? childClaimData.map((item) => `${item.claimName}: ${item.claimData}`).toJS() : []);
-
-  
+  console.log(childClaimData);
+  const getChildClaimData = () => `${childClaimData.claimName}: ${childClaimData.claimData}`;
 
   return (
     <View>
@@ -55,8 +55,8 @@ const AttestationDetails = (props) => {
             <View>
               <PricingCard
                 color={Colors.successButtonColor}
-                title={attestation.get('claimName', '')}
-                info={[getClaimData(claimData), ...getChildClaimData()]}
+                title={attestation.get('id', '')}
+                info={[getClaimData(claimData), getChildClaimData()]}
                 button={attestation.get('showOnHomeScreen', false) ? { title: 'Unpin from home' } : { title: 'Pin to home' }}
                 onButtonPress={pinToHome}
                 titleStyle={Styles.mediumFont}

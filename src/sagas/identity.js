@@ -187,16 +187,17 @@ function * handleReceiveSeedData() {
   try {
     const claimCategoriesFromStore = yield call(getClaimCategories);
     const claimsFromStore = yield call(getClaims);
+    const attestationsFromStore = yield call(getAttestations);
     console.log(claimCategoriesFromStore, '-==--=-=-=-=-=-=-==-')
     const claimCategories = normalizeCategories(claimCategoriesFromStore);
     const claims = normalizeClaims(claimsFromStore);
-    // const attestations = normalizeAttestations(attestationsFromStore);
+    const attestations = normalizeAttestations(attestationsFromStore);
 
     console.log('=+++++==', claimCategories, '=++++====')
 
     yield put(setClaimCategories(claimCategories));
     yield put(setClaims(claims));
-      // put(setAttestations(attestations)),
+    yield put(setAttestations(attestations));
   } catch (error) {
     console.log(error);
   }
@@ -275,6 +276,7 @@ export function * updateAttestationStorage() {
   const attestations = yield select(selectAttestationsReducerState);
   const storedAttestations = yield call(getAttestations);
   const updatedAttestations = yield call(denormalizeAttestations, attestations.toJS());
+  console.log(storedAttestations, updatedAttestations, 'u sagi');
   const attestationsToStore = yield call(updateStoredItems, storedAttestations, updatedAttestations, 'attestations');
   yield call(updateAttestations, attestationsToStore);
 }
