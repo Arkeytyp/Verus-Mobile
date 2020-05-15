@@ -17,7 +17,7 @@ import {
 } from '../utils/asyncStore/identityStorage';
 import updateStoredItems from '../utils/InitialData/updateStoredItems';
 import generateClaimCategories from '../utils/InitialData/ClaimCategory';
-import { camelizeString } from '../utils/stringUtils';
+
 import {
   setActiveIdentity,
   setIdentities,
@@ -148,7 +148,6 @@ function * handleReceiveSeedData() {
     const claimCategoriesFromStore = yield call(getClaimCategories);
     const claimsFromStore = yield call(getClaims);
     const attestationsFromStore = yield call(getAttestations);
-
     const claimCategories = normalizeCategories(claimCategoriesFromStore);
     const claims = normalizeClaims(claimsFromStore);
     const attestations = normalizeAttestations(attestationsFromStore);
@@ -234,7 +233,6 @@ export function * updateAttestationStorage() {
   const attestations = yield select(selectAttestationsReducerState);
   const storedAttestations = yield call(getAttestations);
   const updatedAttestations = yield call(denormalizeAttestations, attestations.toJS());
-  console.log(storedAttestations, updatedAttestations, 'u sagi');
   const attestationsToStore = yield call(updateStoredItems, storedAttestations, updatedAttestations, 'attestations');
   yield call(updateAttestations, attestationsToStore);
 }

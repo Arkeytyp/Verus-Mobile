@@ -1,12 +1,16 @@
 import React, { useEffect, useCallback } from 'react';
 import {
-  View, Text, Platform, TouchableHighlight
+  View, Text, Platform, TouchableHighlight,
 } from 'react-native';
 import { Map as IMap } from 'immutable';
-import { SearchBar, CheckBox, ListItem, Button, Badge } from 'react-native-elements';
+import {
+  SearchBar,
+  CheckBox,
+  ListItem,
+  Button,
+  Badge,
+} from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
-import { FloatingAction } from 'react-native-floating-action';
-import Icon from 'react-native-vector-icons/Ionicons';
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome5';
 
 import AddCategoryDialog from './CategoryDialogs/AddCategory';
