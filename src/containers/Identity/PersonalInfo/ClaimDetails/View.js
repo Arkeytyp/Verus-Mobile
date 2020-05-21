@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {
   View, Text, Platform, TouchableOpacity,
 } from 'react-native';
+import { Map as IMap } from 'immutable';
 import { SearchBar, ListItem } from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
 import Styles from '../../../../styles';
@@ -51,9 +52,9 @@ const ClaimDetails = (props) => {
     });
   };
 
-  const goToAttestationDetails = (activeAttestationId, identityAttested) => {
-    setActiveAttestationId(activeAttestationId);
-    setIdentityAttested(identityAttested);
+  const goToAttestationDetails = (attestation) => {
+    setActiveAttestationId(attestation.get('uid', ''));
+    setIdentityAttested(attestation.get('identityAttested', ''));
     setAttestationModalVisibility(true);
   };
 
@@ -97,8 +98,7 @@ const ClaimDetails = (props) => {
             <ListItem
               key={attestations.getIn([attestation, 'uid'], '')}
               title={attestations.getIn([attestation, 'identityAttested'], '')}
-              onPress={() => goToAttestationDetails(attestations.getIn([attestation, 'uid'], ''),
-                attestations.getIn([attestation, 'identityAttested'], ''))}
+              onPress={() => goToAttestationDetails(attestations.get(attestation, IMap()))}
               bottomDivider
               chevron
             />

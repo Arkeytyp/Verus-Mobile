@@ -61,4 +61,7 @@ export default misc = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  noVerticalPadding: {
+    paddingVertical: 0,
+  },
 };

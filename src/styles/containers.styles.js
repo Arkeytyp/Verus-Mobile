@@ -253,4 +253,9 @@ export default containers = {
   containerVerticalPadding:{
     paddingVertical:8,
   },
+  paddedBorderedBox: {
+    borderWidth: 1,
+    borderColor: Colors.lightGrey,
+    padding: 10,
+  },
 };
