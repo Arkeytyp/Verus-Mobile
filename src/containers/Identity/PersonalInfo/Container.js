@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import {
   selectClaimCategoriesToDisplay, selectShowEmptyClaimCategories, selectClaimsCountByCategory, selectClaimsByIdentityId, selectEmptyCategoryCount,
 } from '../../../selectors/identity';
-import { setActiveClaimCategory, setShowEmptyClaimCategories, addNewCategory } from '../../../actions/actionCreators';
+import { setActiveClaimCategory, setShowEmptyClaimCategories, addNewCategory, toggleShowHiddenClaims } from '../../../actions/actionCreators';
 
 const mapStateToProps = (state) => ({
   claimCategories: selectClaimCategoriesToDisplay(state),
@@ -20,6 +20,7 @@ const mapDispatchToProps = (dispatch) => ({
       setActiveClaimCategory,
       setShowEmptyClaimCategories,
       addNewCategory,
+      toggleShowHiddenClaims,
     },
     dispatch,
   ),

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   View, Text, Modal,
 } from 'react-native';
@@ -7,8 +7,7 @@ import { PricingCard } from 'react-native-elements';
 import Colors from '../../../../globals/colors';
 import Styles from '../../../../styles';
 import StandardButton from '../../../../components/StandardButton';
-// This is temp solution until we get real data from QR code
-const awesomeLink = 'http://awesome.link.qr';
+
 const qrCodeSize = 245;
 import { truncateString } from '../../PersonalInfo/ClaimManager/utils/truncateString';
 
@@ -39,6 +38,8 @@ const AttestationDetails = (props) => {
 
   const getChildClaimData = () => `${childClaimData.claimName}: ${childClaimData.claimData}`;
 
+  const attestationQRCode = useMemo(() => JSON.stringify(attestation), [attestation]);
+
   return (
     <View>
       { visible && (
@@ -68,7 +69,7 @@ const AttestationDetails = (props) => {
             </View>
             <View style={Styles.marginVertical}>
               <QRCode
-                value={awesomeLink}
+                value={attestationQRCode}
                 size={qrCodeSize}
               />
             </View>

@@ -43,6 +43,7 @@ const PersonalInfo = (props) => {
       setActiveClaimCategory,
       setShowEmptyClaimCategories,
       addNewCategory,
+      toggleShowHiddenClaims,
     },
   } = props;
   const [state, actions] = useClaimCategories(claimCategories);
@@ -67,6 +68,7 @@ const PersonalInfo = (props) => {
       claimCategoryName: selectedCategory.get('displayName', ''),
     });
     setActiveClaimCategory(selectedCategory.get('name', ''));
+    toggleShowHiddenClaims(false);
   };
 
   useEffect(() => {
