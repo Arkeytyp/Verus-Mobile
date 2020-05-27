@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   TouchableOpacity,
@@ -16,12 +16,14 @@ const ScanBadge = (props) => {
 
   } = props;
 
+  const [data, setData] = useState();
   const onSuccess = (e) => {
+    setData(JSON.parse(e.data));
     navigation.navigate('ScannedInformation');
   };
 
   const nextHandler = () => {
-    setScanInfoModalVisibility(true);
+    navigation.navigate('Identity', { selectedScreen: 'Identity' });
   };
   return (
     <View style={Styles.blackRoot}>
@@ -35,9 +37,10 @@ const ScanBadge = (props) => {
         style={{ ...Styles.footerContainer, ...Styles.blackRoot }}
         onPress={nextHandler}
       >
-        <Text style={Styles.whiteTextWithPadding}>Next</Text>
+        <Text style={Styles.whiteTextWithPadding}>Cancel</Text>
       </TouchableOpacity>
       <ScannedInformation
+        data={data}
         visible={scanInfoModalVisibility}
       />
     </View>
