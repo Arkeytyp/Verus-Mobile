@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00804BB90E4BD1A72055C46B /* libPods-verusmobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAB428DB1806D6800BC7B1F /* libPods-verusmobile-tvOSTests.a */; };
 		00E356F31AD99517003FC87E /* verusmobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* verusmobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		149042CA923AF49CB00498F2 /* Pods_verusmobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753E1A6B9A9792D6D8FB216 /* Pods_verusmobileTests.framework */; };
-		14BA53AC25503EA6BFF0EF04 /* libPods-verusmobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFCA3637970CC502B974DD6 /* libPods-verusmobile-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* verusmobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* verusmobileTests.m */; };
+		43E47407B2A0A36F9FE43021 /* libPods-verusmobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9602996DC3704A2D67109716 /* libPods-verusmobile-tvOS.a */; };
+		4BC2936DE8E3E0E956DE653A /* Pods_verusmobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D1B30F0F93AD7E19428A00 /* Pods_verusmobile.framework */; };
 		4E4D0A66241530330069A5A7 /* sapling-output.params in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D0A6424152FE90069A5A7 /* sapling-output.params */; };
 		4E4D0A67241530350069A5A7 /* sapling-spend.params in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D0A6524152FF00069A5A7 /* sapling-spend.params */; };
 		4E80A310241028FC00F037A9 /* bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80A30F241028FC00F037A9 /* bridge.swift */; };
 		4E9EA99B23BB63A800B9FA10 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		4E9EA99D23BB985300B9FA10 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9EA99C23BB985200B9FA10 /* assets */; };
 		4EAC77502411690900A7D427 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A4720453606778D81C910759 /* Pods_verusmobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80F4398CF2B00B454D5759E /* Pods_verusmobile.framework */; };
 		C3F0F1EC224C38D900279E92 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F0F1EB224C38D900279E92 /* JavaScriptCore.framework */; };
-		E58A08E341C3584FCF7F489D /* libPods-verusmobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C12CB856350FC2E159804B /* libPods-verusmobile-tvOS.a */; };
+		E0FE6A65B50358B575A049E6 /* Pods_verusmobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6821B30950FBBBEAB4F235E /* Pods_verusmobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +72,7 @@
 		00E356EE1AD99517003FC87E /* verusmobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = verusmobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* verusmobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = verusmobileTests.m; sourceTree = "<group>"; };
+		054BC68D9277E4F06D6EB0AF /* Pods-verusmobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOS/Pods-verusmobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* verusmobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = verusmobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = verusmobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = verusmobile/AppDelegate.m; sourceTree = "<group>"; };
@@ -79,13 +80,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = verusmobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = verusmobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = verusmobile/main.m; sourceTree = "<group>"; };
-		1753E1A6B9A9792D6D8FB216 /* Pods_verusmobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_verusmobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C12CB856350FC2E159804B /* libPods-verusmobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-verusmobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* verusmobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "verusmobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* verusmobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "verusmobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755AB9F237EB50400393E99 /* InputMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = InputMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40745A80CED03FC85A621C84 /* Pods-verusmobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOS/Pods-verusmobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4D19ED378AA103EE056DC089 /* Pods-verusmobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile/Pods-verusmobile.debug.xcconfig"; sourceTree = "<group>"; };
 		4E4D0A6424152FE90069A5A7 /* sapling-output.params */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sapling-output.params"; sourceTree = "<group>"; };
 		4E4D0A6524152FF00069A5A7 /* sapling-spend.params */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sapling-spend.params"; sourceTree = "<group>"; };
 		4E80A30F241028FC00F037A9 /* bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridge.swift; sourceTree = "<group>"; };
@@ -125,17 +122,20 @@
 		4E9EA98923BA7F7E00B9FA10 /* RNPermissionHandlerReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPermissionHandlerReminders.h; path = "../node_modules/react-native-permissions/ios/Reminders/RNPermissionHandlerReminders.h"; sourceTree = "<group>"; };
 		4E9EA98A23BA7F7E00B9FA10 /* RNPermissionHandlerReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPermissionHandlerReminders.m; path = "../node_modules/react-native-permissions/ios/Reminders/RNPermissionHandlerReminders.m"; sourceTree = "<group>"; };
 		4E9EA99C23BB985200B9FA10 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
-		5B82DD7408A1120AAC92B9AD /* Pods-verusmobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOSTests/Pods-verusmobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		780AA8A37F7DE82477E6E665 /* Pods-verusmobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobileTests.release.xcconfig"; path = "Target Support Files/Pods-verusmobileTests/Pods-verusmobileTests.release.xcconfig"; sourceTree = "<group>"; };
-		7BB2745F4702E261428134AC /* Pods-verusmobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile.release.xcconfig"; path = "Target Support Files/Pods-verusmobile/Pods-verusmobile.release.xcconfig"; sourceTree = "<group>"; };
-		927693997ABE06E9D6C9DA8F /* Pods-verusmobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOS/Pods-verusmobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A80F4398CF2B00B454D5759E /* Pods_verusmobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_verusmobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFCA3637970CC502B974DD6 /* libPods-verusmobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-verusmobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C232D626E0A6E476A4173B36 /* Pods-verusmobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobileTests.debug.xcconfig"; path = "Target Support Files/Pods-verusmobileTests/Pods-verusmobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55CEC8D5A2B6C5756E6F68A3 /* Pods-verusmobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOSTests/Pods-verusmobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		649BE12B76FC866F33C61E74 /* Pods-verusmobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOS/Pods-verusmobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6888F431593C690AA00F7E1C /* Pods-verusmobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile/Pods-verusmobile.debug.xcconfig"; sourceTree = "<group>"; };
+		7DAB428DB1806D6800BC7B1F /* libPods-verusmobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-verusmobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A51E6D533356E203B09806 /* Pods-verusmobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile.release.xcconfig"; path = "Target Support Files/Pods-verusmobile/Pods-verusmobile.release.xcconfig"; sourceTree = "<group>"; };
+		9602996DC3704A2D67109716 /* libPods-verusmobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-verusmobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CBC878349D6EF975068E45 /* Pods-verusmobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobileTests.debug.xcconfig"; path = "Target Support Files/Pods-verusmobileTests/Pods-verusmobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F0F1EB224C38D900279E92 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		CA48FA08ED8A4F26BFEF960A /* Pods-verusmobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOSTests/Pods-verusmobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D1B30F0F93AD7E19428A00 /* Pods_verusmobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_verusmobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6821B30950FBBBEAB4F235E /* Pods_verusmobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_verusmobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8B5748E6514788A6364B4A /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativePermissions.a; sourceTree = "<group>"; };
+		CFE1D072F09596938665E63F /* Pods-verusmobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-verusmobile-tvOSTests/Pods-verusmobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		DFF57B3EB4F24D3E91E7F92C /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
+		F6FA73370B923D51DCFA622C /* Pods-verusmobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-verusmobileTests.release.xcconfig"; path = "Target Support Files/Pods-verusmobileTests/Pods-verusmobileTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149042CA923AF49CB00498F2 /* Pods_verusmobileTests.framework in Frameworks */,
+				E0FE6A65B50358B575A049E6 /* Pods_verusmobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F0F1EC224C38D900279E92 /* JavaScriptCore.framework in Frameworks */,
-				A4720453606778D81C910759 /* Pods_verusmobile.framework in Frameworks */,
+				4BC2936DE8E3E0E956DE653A /* Pods_verusmobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E58A08E341C3584FCF7F489D /* libPods-verusmobile-tvOS.a in Frameworks */,
+				43E47407B2A0A36F9FE43021 /* libPods-verusmobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BA53AC25503EA6BFF0EF04 /* libPods-verusmobile-tvOSTests.a in Frameworks */,
+				00804BB90E4BD1A72055C46B /* libPods-verusmobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +213,10 @@
 			children = (
 				C3F0F1EB224C38D900279E92 /* JavaScriptCore.framework */,
 				3755AB9F237EB50400393E99 /* InputMask.framework */,
-				A80F4398CF2B00B454D5759E /* Pods_verusmobile.framework */,
-				26C12CB856350FC2E159804B /* libPods-verusmobile-tvOS.a */,
-				AAFCA3637970CC502B974DD6 /* libPods-verusmobile-tvOSTests.a */,
-				1753E1A6B9A9792D6D8FB216 /* Pods_verusmobileTests.framework */,
+				C4D1B30F0F93AD7E19428A00 /* Pods_verusmobile.framework */,
+				9602996DC3704A2D67109716 /* libPods-verusmobile-tvOS.a */,
+				7DAB428DB1806D6800BC7B1F /* libPods-verusmobile-tvOSTests.a */,
+				C6821B30950FBBBEAB4F235E /* Pods_verusmobileTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -335,14 +335,14 @@
 		EBFAC370DE4C56362A208F3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D19ED378AA103EE056DC089 /* Pods-verusmobile.debug.xcconfig */,
-				7BB2745F4702E261428134AC /* Pods-verusmobile.release.xcconfig */,
-				40745A80CED03FC85A621C84 /* Pods-verusmobile-tvOS.debug.xcconfig */,
-				927693997ABE06E9D6C9DA8F /* Pods-verusmobile-tvOS.release.xcconfig */,
-				CA48FA08ED8A4F26BFEF960A /* Pods-verusmobile-tvOSTests.debug.xcconfig */,
-				5B82DD7408A1120AAC92B9AD /* Pods-verusmobile-tvOSTests.release.xcconfig */,
-				C232D626E0A6E476A4173B36 /* Pods-verusmobileTests.debug.xcconfig */,
-				780AA8A37F7DE82477E6E665 /* Pods-verusmobileTests.release.xcconfig */,
+				6888F431593C690AA00F7E1C /* Pods-verusmobile.debug.xcconfig */,
+				85A51E6D533356E203B09806 /* Pods-verusmobile.release.xcconfig */,
+				649BE12B76FC866F33C61E74 /* Pods-verusmobile-tvOS.debug.xcconfig */,
+				054BC68D9277E4F06D6EB0AF /* Pods-verusmobile-tvOS.release.xcconfig */,
+				55CEC8D5A2B6C5756E6F68A3 /* Pods-verusmobile-tvOSTests.debug.xcconfig */,
+				CFE1D072F09596938665E63F /* Pods-verusmobile-tvOSTests.release.xcconfig */,
+				B7CBC878349D6EF975068E45 /* Pods-verusmobileTests.debug.xcconfig */,
+				F6FA73370B923D51DCFA622C /* Pods-verusmobileTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "verusmobileTests" */;
 			buildPhases = (
-				81AABD1006A97A55E763248A /* [CP] Check Pods Manifest.lock */,
+				FA404C80E57DFBDD6634AC9D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -373,14 +373,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "verusmobile" */;
 			buildPhases = (
-				1F95D8FEA4AD606047521153 /* [CP] Check Pods Manifest.lock */,
+				12CD2C70A9F290C012FF62D4 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				3755ABA2237EB50400393E99 /* Embed Frameworks */,
-				48D1B6EBD6B0ABC02D5A056A /* [CP] Embed Pods Frameworks */,
-				453036F55B45EACA28A18E8F /* [CP] Copy Pods Resources */,
+				C6E4DB29E494E08008035C30 /* [CP] Embed Pods Frameworks */,
+				37264FBE105EA3BE7B8CB818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,7 +395,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "verusmobile-tvOS" */;
 			buildPhases = (
-				72BA32FE4C54D4A6B4343FCE /* [CP] Check Pods Manifest.lock */,
+				A52D0407E2106506BD809C03 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -414,7 +414,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "verusmobile-tvOSTests" */;
 			buildPhases = (
-				F03FB0EFF2E9B2024A0D3DC5 /* [CP] Check Pods Manifest.lock */,
+				9C43CD7245DC101C354032C4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -550,7 +550,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		1F95D8FEA4AD606047521153 /* [CP] Check Pods Manifest.lock */ = {
+		12CD2C70A9F290C012FF62D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -586,7 +586,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		453036F55B45EACA28A18E8F /* [CP] Copy Pods Resources */ = {
+		37264FBE105EA3BE7B8CB818 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,7 +634,51 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-verusmobile/Pods-verusmobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		48D1B6EBD6B0ABC02D5A056A /* [CP] Embed Pods Frameworks */ = {
+		9C43CD7245DC101C354032C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-verusmobile-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52D0407E2106506BD809C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-verusmobile-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E4DB29E494E08008035C30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -732,29 +776,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-verusmobile/Pods-verusmobile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72BA32FE4C54D4A6B4343FCE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-verusmobile-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		81AABD1006A97A55E763248A /* [CP] Check Pods Manifest.lock */ = {
+		FA404C80E57DFBDD6634AC9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -770,28 +792,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-verusmobileTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F03FB0EFF2E9B2024A0D3DC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-verusmobile-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -866,7 +866,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C232D626E0A6E476A4173B36 /* Pods-verusmobileTests.debug.xcconfig */;
+			baseConfigurationReference = B7CBC878349D6EF975068E45 /* Pods-verusmobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -887,7 +887,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 780AA8A37F7DE82477E6E665 /* Pods-verusmobileTests.release.xcconfig */;
+			baseConfigurationReference = F6FA73370B923D51DCFA622C /* Pods-verusmobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -905,7 +905,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D19ED378AA103EE056DC089 /* Pods-verusmobile.debug.xcconfig */;
+			baseConfigurationReference = 6888F431593C690AA00F7E1C /* Pods-verusmobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -975,7 +975,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB2745F4702E261428134AC /* Pods-verusmobile.release.xcconfig */;
+			baseConfigurationReference = 85A51E6D533356E203B09806 /* Pods-verusmobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1043,7 +1043,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40745A80CED03FC85A621C84 /* Pods-verusmobile-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 649BE12B76FC866F33C61E74 /* Pods-verusmobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1072,7 +1072,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 927693997ABE06E9D6C9DA8F /* Pods-verusmobile-tvOS.release.xcconfig */;
+			baseConfigurationReference = 054BC68D9277E4F06D6EB0AF /* Pods-verusmobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1101,7 +1101,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA48FA08ED8A4F26BFEF960A /* Pods-verusmobile-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 55CEC8D5A2B6C5756E6F68A3 /* Pods-verusmobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1124,7 +1124,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B82DD7408A1120AAC92B9AD /* Pods-verusmobile-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = CFE1D072F09596938665E63F /* Pods-verusmobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

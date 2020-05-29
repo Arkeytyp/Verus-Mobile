@@ -1,7 +1,6 @@
 import React from 'react';
 import { Text, View, Modal } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
-// import data from './mockData';
 import Styles from '../../../../styles';
 import Colors from '../../../../globals/colors';
 import StandardButton from '../../../../components/StandardButton';
