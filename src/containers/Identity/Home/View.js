@@ -84,18 +84,19 @@ const Home = (props) => {
           </ScrollView>
         </View>
       ) : (
-        <View style={Styles.fullWidthFlexGrowCenterBlock}>
+        <View>
           <Text
             style={[Styles.defaultDescriptiveText, Styles.mediumFormInputLabel]}
           >
             You don&apos;t have any pinned attestations at the moment. Go to the personal information tab and find an attestation to a claim that you want displayed here.
           </Text>
-          <Button
-            style={[Styles.centralHeader, Styles.paddingTop]}
-            title="Go to personal information"
-            onPress={() => navigation.navigate('Identity', { selectedScreen: 'Personal Information' })}
-          />
+          <TouchableOpacity onPress={() => navigation.navigate('Identity', { selectedScreen: 'Personal Information' })} style={Styles.linkButton}>
+            <Text style={Styles.textButton}>PERSONAL INFORMATION</Text>
+          </TouchableOpacity>
+
         </View>
+
+
       )}
       <AttestationDetails
         visible={attestationModalVisibility}

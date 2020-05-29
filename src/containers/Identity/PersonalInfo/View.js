@@ -188,11 +188,11 @@ const PersonalInfo = (props) => {
         handleDeleteCategory={handleDeleteCategory}
         selectedCategory={activeCategory}
       />
-      <Button
-        style={Styles.paddingBottom}
-        title="Add category"
-        onPress={() => setAddDialogVisible(true)}
-      />
+      <View>
+        <TouchableOpacity onPress={() => setAddDialogVisible(true)} style={Styles.linkButton}>
+          <Text style={Styles.textButton}>ADD CATEGORY</Text>
+        </TouchableOpacity>
+      </View>
       <ScrollView>
         <View>
           {categories.keySeq().map((item) => (
